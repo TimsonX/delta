@@ -12,8 +12,13 @@ html,body{
     
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .main-page {
     display: block;
+   
 }
 
 h1 {
@@ -69,12 +74,13 @@ h2 {
     width: 100vw;
 } */
 
-.portfolio {
+.portfolio{
 
     display: relative;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    max-width: 100px;
 
 
 }
@@ -108,7 +114,8 @@ h2 {
 
 /* Слайдер */
 .slick-slider{
-	min-width: 0;
+    min-width: 0;
+
 }
 /* Ограничивающая оболочка */
 .slick-list {
@@ -146,7 +153,8 @@ h2 {
 /* Конкретный слайдер */
 .slider {
 	position: relative;
-	padding: 0px 60px;
+    padding: 0px 60px;
+    
 }
 
 @media (max-width:767px){
